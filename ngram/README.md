@@ -22,20 +22,21 @@ There are 3 files namely, testset.csv, trainset.csv and devset.csv. Here, trains
 
 ## Results
 
-- Perplexity on test set for __add-1 smoothing__ - 442.36
+- Perplexity on test set for __add-1 smoothing__ - 442.31
 
 - Perplexity on test set for __simple interpolation__ - 79.80
 
 - Sample sentences generated using __add-1 smoothing__:
-    -  well , then i think , uh , got a bunch of lakes in our national
-    -  i grow up with this five day waiting period is one of the upper peninsula ,
-    -  we , we , uh , barbecue and tell me how to say in germany .
-    -  and i felt real safe with their ten key or something like that ?
-    -  raised it up in front of my boys .
+    -  <s> well , actually i like seeing other countries to get it across nicaragua , </s>
+    -  <s> no </s>
+    -  <s> yeah . </s>
+    -  <s> so i was growing up that i see , </s>
+    -  <s> yeah . </s>
+
+![Screenshot 2019-04-29 at 4 27 32 PM](https://user-images.githubusercontent.com/17769945/56891944-bf17e480-6a9b-11e9-9095-5f25f5b01280.png)
+
+
 
 - Sample sentences generated using __simple interpolation method__:
-    - know , those things , i saw in the water ,
-    - mean , i only had a pretty , you know , to , we kind of running around when you do n't really do n't know
-    - he , uh , they all do , i have n't
-    - uh , now i do about that
-    - i go , and then you 've , we used to take their <UNK> <UNK> the , you know ,
+
+![Screenshot 2019-04-29 at 4 28 26 PM](https://user-images.githubusercontent.com/17769945/56891995-dbb41c80-6a9b-11e9-9a1d-30657250cd9a.png)

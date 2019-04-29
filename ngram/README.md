@@ -1,5 +1,5 @@
 
-# Sentence Generation with Trigram Language Modeling
+# Sentence Generation
 
 Implemented trigram language model with unknown word handling (replace words of frequency less than 5 as UNK). The code also handles different smoothing techniques like add-1 smoothing and simple interpolation smoothing. It then computes the perplexity on the test on both the smoothing methods, so as to compare and analyze as to which method is better.
 

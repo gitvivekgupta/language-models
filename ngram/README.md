@@ -11,14 +11,6 @@ The Switchboard Corpus(http://compprag.christopherpotts.net/swda.html) will be u
 
 There are 3 files namely, testset.csv, trainset.csv and devset.csv. Here, trainset.csv has 70% of the total data, and devset.csv and testset.csv each has 15%.
 
-## Steps taken
-
-1. Extracted the text field from each line of each csv file.
-2. Remove all the unnecessary symbols leaving behind meaningful words.
-3. Lower cased all the words.
-4. Kept a count of each word appearing in the corpus which helps generalize which words appear less than 5 times as "UNK".
-5. Calculate the probability using add-1 and simple interpolation and then compute perplexity.
-6. Generated 20 sentences from each of the model using the Shannon method.
 
 ## Results
 
